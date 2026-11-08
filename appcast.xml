@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>atmOSphere for macOS</title>
+    <link>https://github.com/arossp/atmOSphere-releases/releases</link>
+    <description>Signed beta updates for atmOSphere on macOS.</description>
+  </channel>
+</rss>
