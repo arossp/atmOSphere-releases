@@ -1,30 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
--->
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>atmOSphere for macOS</title>
-        <link>https://github.com/arossp/atmOSphere-releases/releases</link>
-        <description>Signed beta updates for atmOSphere on macOS.</description>
+        <title>AtmOSphere</title>
         <item>
-            <title>0.8.30</title>
-            <pubDate>Mon, 09 Nov 2026 14:25:06 -0700</pubDate>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>0.8.30</sparkle:shortVersionString>
+            <title>0.8.31</title>
+            <pubDate>Mon, 09 Nov 2026 20:18:20 -0700</pubDate>
+            <link>https://www.aaronrosspowell.com/atmosphere</link>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>0.8.31</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><title>atmOSphere 0.8.30</title></head>
-<body><h2>atmOSphere 0.8.30</h2>
-<p>This build saves and restores your Bluesky session without showing a Keychain password dialog. If you used an earlier test build, connect your account again after installing this update.</p>
-</body></html>
+            <description><![CDATA[<h2>atmOSphere 0.8.31</h2>
+<ul>
+<li><strong>Report a bug</strong> includes the app version, build number, and macOS version in the email draft.</li>
+<li>Reply uses the same muted color as other inactive post actions.</li>
+<li>Checkboxes follow your selected theme, including in Publications.</li>
+</ul>
 ]]></description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.30/atmOSphere.zip" length="49356170" type="application/octet-stream" sparkle:edSignature="DwKpIBPtrko1Ul/yAHjyuVNNIYb4KImmUfpcRJbB1N/d7X5Ng/kgBZ5F9sR0smHbR7HJR7uGBWbW7zW7tsmODw=="/>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.31/atmOSphere.zip" length="49348119" type="application/octet-stream" sparkle:edSignature="eIplziq8ddtGo0pzlijy7KUcRefzKXghzgbs2imPufP2NckFgnmK/AyjZffe3L4dKHcX2546rijhIHHbDh1HDA=="></enclosure>
         </item>
     </channel>
-</rss>
-<!-- sparkle-signatures:
-edSignature: ffDbFd7HKM4Of1vxGmZZQee3Tt+fXgPd/TmEmkmffoKtn4tOBT95//IJj036VpklQ3uyDPwIGPgR8TV/l7JzAQ==
-length: 1701
+</rss><!-- sparkle-signatures:
+edSignature: El57Ph52XzFXVjW3toQuacjV0kYM4hiwYBprOqDENQPbSFiEvd2P942fOoGRVbDDawUqfyKYI83NxZCv2/V4Dg==
+length: 1555
 -->
