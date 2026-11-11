@@ -6,6 +6,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>AtmOSphere</title>
         <item>
+            <title>0.9.0</title>
+            <pubDate>Wed, 11 Nov 2026 14:58:17 -0700</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p>Okay, this is a big one.</p>
+<p><strong>A Desk of your own</strong></p>
+<p>I started building atmOSphere because I wanted a Mac app that remembered where I’d left off in Bluesky and let me read the blogs I follow. But I also wanted somewhere to keep the conversations I cared about, so I could come back to them without having to find them again in a moving feed.</p>
+<p>This update introduces <strong>Desk</strong>, and organizes atmOSphere around three places: your Desk, your Room, and the World outside your window.</p>
+<p><strong>Desk → Focus</strong></p>
+<p>Your Desk is where you put what you want to give your attention to.</p>
+<p>Save an article from Publications, or save a Bluesky conversation using the little desk icon in its conversation view. You can also save a conversation directly from Notifications. Saving a reply follows that branch of the discussion, so you can keep up with one exchange without following every other reply to the original post.</p>
+<p>For saved articles, Desk looks for related Bluesky discussions and shows them beside the article. It explains why each thread is there: linked by the publisher, linking to the article, or added by you. Where supported, the publication’s own comments appear separately from Bluesky threads.</p>
+<p>If Desk misses a conversation, you can attach it yourself. Open the conversation, choose the attach-to-Desk icon, and type to find the saved item it belongs with.</p>
+<p>When you return, new replies are highlighted. You can jump to the next new reply, respond without leaving the app, and explicitly mark the discussion seen when you’re caught up. Rename saved items to something meaningful to you, give them topics, and filter your Desk by those topics.</p>
+<p>Your Desk is for what matters to you right now. When a conversation has run its course, <strong>Remove from Desk</strong> is right there.</p>
+<p><strong>Room → Chill</strong></p>
+<p>Your Room holds the people, publications, and feeds you choose to follow. This is where you catch up with friends, read articles, and wander through familiar feeds.</p>
+<p>Following still remembers your place. Publications still keeps track of unread articles. The Room home screen brings previews of those sources together, with the full views a click away.</p>
+<p><strong>World → Explore</strong></p>
+<p>World is where you look outward. Search Bluesky for posts and people, and add feeds you want to explore. You can keep those discovery feeds separate from the familiar sources in your Room.</p>
+<p>A short tour introduces the new layout when you first open this update. You can reopen it anytime from Help.</p>
+<p><strong>Other improvements and fixes</strong></p>
+<ul><li>Clearer notification labels and short previews of the posts being replied to.</li><li>Fixed notification conversation links that could return to the feed without opening the discussion.</li><li>More compact, side-by-side layouts for posts with multiple images.</li><li>Fixed images and text overflowing narrow conversation panes.</li><li>Expanded article rendering for pckt and Offprint, plus click-to-load HTML figures in Leaflet articles.</li><li>More consistent sidebar hover feedback and text cursors that match your theme.</li></ul>
+<p>Your saved Desk items, topics, and Desk reading history stay on this Mac for now.</p>
+<p>Thanks for trying atmOSphere and sending feedback. I’m looking forward to seeing what you put on your Desk.</p>
+]]></description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.0/atmOSphere.zip" length="50018578" type="application/octet-stream" sparkle:edSignature="8PDPM0HWjBf4M38h3NHOVPS0pqyQR+F1szepg61s7LSy9IdTX8XV/zAVoAjKtNTtDgCulN3eJYGZSgGbM/xeCQ=="/>
+        </item>
+        <item>
             <title>0.8.35</title>
             <pubDate>Wed, 11 Nov 2026 08:00:03 -0700</pubDate>
             <link>https://www.aaronrosspowell.com/atmosphere</link>
@@ -41,26 +72,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.34/atmOSphere.zip" length="49385368" type="application/octet-stream" sparkle:edSignature="mfBvMx8kAlnNBcjcL3VRdliGKmIVWPPv3Vw05aB17st7OyB3CGs9OTIbT3zjt73zJ3/hjgHyRDqbAJ8kRGzYCg=="/>
         </item>
-        <item>
-            <title>0.8.31</title>
-            <pubDate>Mon, 09 Nov 2026 20:18:20 -0700</pubDate>
-            <link>https://www.aaronrosspowell.com/atmosphere</link>
-            <sparkle:version>48</sparkle:version>
-            <sparkle:shortVersionString>0.8.31</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>atmOSphere 0.8.31</h2>
-<ul>
-<li><strong>Report a bug</strong> includes the app version, build number, and macOS version in the email draft.</li>
-<li>Reply uses the same muted color as other inactive post actions.</li>
-<li>Checkboxes follow your selected theme, including in Publications.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.31/atmOSphere.zip" length="49348119" type="application/octet-stream" sparkle:edSignature="eIplziq8ddtGo0pzlijy7KUcRefzKXghzgbs2imPufP2NckFgnmK/AyjZffe3L4dKHcX2546rijhIHHbDh1HDA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: OSfqoL58L4GbExvMgLuZVzccDDLDUOC0pLxyT/ZadzbOTR4HRkPv+f6r5RLmTlhPoq3Qe04sEfVB4bXqQW5QAg==
-length: 4199
+edSignature: aFjUR9G9NaxwF6CHahT16uRp/dO8i4QLpXxjVEqlrbHZZGuEjVy/GLfad2gdMjXo799uiN+py4yMDuJRHHIRAA==
+length: 7277
 -->
