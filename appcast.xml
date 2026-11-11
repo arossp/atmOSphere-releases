@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>AtmOSphere</title>
         <item>
+            <title>0.8.35</title>
+            <pubDate>Wed, 11 Nov 2026 08:00:03 -0700</pubDate>
+            <link>https://www.aaronrosspowell.com/atmosphere</link>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>0.8.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>atmOSphere 0.8.35</h2>
+<ul>
+<li>Leaflet articles now show figures and supported video embeds in their original order.</li>
+<li>Click article images to enlarge them. Image space is reserved while loading to keep the text steady.</li>
+<li>YouTube and Vimeo videos load when clicked. Other embedded content has a link to open it in your browser.</li>
+<li>Previously cached articles refresh automatically to pick up their missing media.</li>
+<li>Includes the recent themed icons, GIF layout, notification, and engagement-control fixes.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.35/atmOSphere.zip" length="49444645" type="application/octet-stream" sparkle:edSignature="ngudkFTMjrZGCGuI3k46vNzdhFJkPvD/MnOHuy31XdqxIJxpyL8KWCIR6eyO4Z6BL27r0+ggncZ2LTRE2E0NBg=="/>
+        </item>
+        <item>
             <title>0.8.34</title>
             <pubDate>Tue, 10 Nov 2026 17:47:41 -0700</pubDate>
             <sparkle:version>51</sparkle:version>
@@ -43,6 +61,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: y3yqm/1dNhQilNh7reWIbGi7NLizlwEQ1i/u41BLyxAwB7o5uE+lqDOwrTpahvDROmfNE09NM22PFY4BdQAZAw==
-length: 2843
+edSignature: OSfqoL58L4GbExvMgLuZVzccDDLDUOC0pLxyT/ZadzbOTR4HRkPv+f6r5RLmTlhPoq3Qe04sEfVB4bXqQW5QAg==
+length: 4199
 -->
