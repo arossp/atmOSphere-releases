@@ -1,8 +1,28 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>AtmOSphere</title>
+        <item>
+            <title>0.8.34</title>
+            <pubDate>Tue, 10 Nov 2026 17:47:41 -0700</pubDate>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>0.8.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>Animated GIFs fit inside posts, including in narrow conversation panes.</li>
+<li>Smooth and pixelated Dock icons use more colors from the selected theme.</li>
+<li>Notifications focus on conversations and follows. Likes and reposts are removed, and interacting with a post clears its notification in the app.</li>
+<li>Reply and quote controls respect the author’s settings.</li>
+<li>Feed removal is in the right-click menu. Done buttons use the app’s typeface.</li>
+<li>The About window links to the atmOSphere account on Bluesky.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.34/atmOSphere.zip" length="49385368" type="application/octet-stream" sparkle:edSignature="mfBvMx8kAlnNBcjcL3VRdliGKmIVWPPv3Vw05aB17st7OyB3CGs9OTIbT3zjt73zJ3/hjgHyRDqbAJ8kRGzYCg=="/>
+        </item>
         <item>
             <title>0.8.31</title>
             <pubDate>Mon, 09 Nov 2026 20:18:20 -0700</pubDate>
@@ -18,10 +38,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 <li>Checkboxes follow your selected theme, including in Publications.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.31/atmOSphere.zip" length="49348119" type="application/octet-stream" sparkle:edSignature="eIplziq8ddtGo0pzlijy7KUcRefzKXghzgbs2imPufP2NckFgnmK/AyjZffe3L4dKHcX2546rijhIHHbDh1HDA=="></enclosure>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.31/atmOSphere.zip" length="49348119" type="application/octet-stream" sparkle:edSignature="eIplziq8ddtGo0pzlijy7KUcRefzKXghzgbs2imPufP2NckFgnmK/AyjZffe3L4dKHcX2546rijhIHHbDh1HDA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: El57Ph52XzFXVjW3toQuacjV0kYM4hiwYBprOqDENQPbSFiEvd2P942fOoGRVbDDawUqfyKYI83NxZCv2/V4Dg==
-length: 1555
+</rss>
+<!-- sparkle-signatures:
+edSignature: y3yqm/1dNhQilNh7reWIbGi7NLizlwEQ1i/u41BLyxAwB7o5uE+lqDOwrTpahvDROmfNE09NM22PFY4BdQAZAw==
+length: 2843
 -->
