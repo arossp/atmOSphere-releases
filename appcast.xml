@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>AtmOSphere</title>
         <item>
+            <title>0.9.1</title>
+            <pubDate>Thu, 12 Nov 2026 08:28:43 -0700</pubDate>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p>This update fixes background refreshing and makes the smooth app icon the default.</p>
+<ul>
+<li>Following can continue catching up after an interrupted refresh, instead of repeatedly starting over. Your current posts and reading position stay in place while it catches up.</li>
+<li>Notifications check for new activity independently of feed refreshing, including when feed auto-refresh is off. An open Notifications view updates in the background too.</li>
+<li>A temporary notification or messaging-service failure keeps the last confirmed unread state and no longer interrupts the other background checks.</li>
+<li>New installations use the smooth icon in Finder and the Dock. Your existing icon choice is preserved, and both styles remain available in Preferences.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.1/atmOSphere-update.zip" length="50027121" type="application/octet-stream" sparkle:edSignature="z+CHigxqqf/66P4bJEJaI5w/jJEv6NFYC8xdodwpAVCPA6hzBCgprcWyq48P4rf3+kJdGQmbpoOiPtYUT4vpBw=="/>
+        </item>
+        <item>
             <title>0.9.0</title>
             <pubDate>Wed, 11 Nov 2026 14:58:17 -0700</pubDate>
             <sparkle:version>62</sparkle:version>
@@ -54,27 +71,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 </ul>]]></description>
             <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.35/atmOSphere.zip" length="49444645" type="application/octet-stream" sparkle:edSignature="ngudkFTMjrZGCGuI3k46vNzdhFJkPvD/MnOHuy31XdqxIJxpyL8KWCIR6eyO4Z6BL27r0+ggncZ2LTRE2E0NBg=="/>
         </item>
-        <item>
-            <title>0.8.34</title>
-            <pubDate>Tue, 10 Nov 2026 17:47:41 -0700</pubDate>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>0.8.34</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-<li>Animated GIFs fit inside posts, including in narrow conversation panes.</li>
-<li>Smooth and pixelated Dock icons use more colors from the selected theme.</li>
-<li>Notifications focus on conversations and follows. Likes and reposts are removed, and interacting with a post clears its notification in the app.</li>
-<li>Reply and quote controls respect the author’s settings.</li>
-<li>Feed removal is in the right-click menu. Done buttons use the app’s typeface.</li>
-<li>The About window links to the atmOSphere account on Bluesky.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.34/atmOSphere.zip" length="49385368" type="application/octet-stream" sparkle:edSignature="mfBvMx8kAlnNBcjcL3VRdliGKmIVWPPv3Vw05aB17st7OyB3CGs9OTIbT3zjt73zJ3/hjgHyRDqbAJ8kRGzYCg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: aFjUR9G9NaxwF6CHahT16uRp/dO8i4QLpXxjVEqlrbHZZGuEjVy/GLfad2gdMjXo799uiN+py4yMDuJRHHIRAA==
-length: 7277
+edSignature: 3qWG264+UdewRS7QzhpuTVqWeGxKS9p5vaptxVMeMWK+fguhKlrjWx3E5fhhw6gndpwr6MTWSw+DrRui8+ccAw==
+length: 7508
 -->
