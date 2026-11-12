@@ -6,6 +6,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>AtmOSphere</title>
         <item>
+            <title>0.9.2</title>
+            <pubDate>Thu, 12 Nov 2026 12:33:02 -0700</pubDate>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p>This update fixes Blacksky sign-in and displays Bluesky image galleries.</p>
+<ul>
+<li>Blacksky accounts request permissions for Blacksky’s reading service and use that service when loading the account and feeds. The selected service is preserved with the saved session. If a previous sign-in failed, reconnect your account after updating.</li>
+<li>Posts using Bluesky’s gallery format now display their attached images, including galleries inside quoted posts. Existing moderation and image URL checks still apply.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.2/atmOSphere-update.zip" length="50028344" type="application/octet-stream" sparkle:edSignature="GRV6/HMqlASUpxkIwlGONTHLpFbFDMATWtnTE+dXQcV0i00NCgVbNIzX3EDMBaGtiflsjD9kRJjRo+sbWLE2Cg=="/>
+        </item>
+        <item>
             <title>0.9.1</title>
             <pubDate>Thu, 12 Nov 2026 08:28:43 -0700</pubDate>
             <sparkle:version>63</sparkle:version>
@@ -74,6 +89,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3qWG264+UdewRS7QzhpuTVqWeGxKS9p5vaptxVMeMWK+fguhKlrjWx3E5fhhw6gndpwr6MTWSw+DrRui8+ccAw==
-length: 7508
+edSignature: wPzjGjNEVQOJtlVTKPLc9STv+YX5bi3c/U8pzbMIMSbMebXyMTOVm/eCkH1xCDKs3eN7VUzK32FBflDMVzuVBg==
+length: 8787
 -->
