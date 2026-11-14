@@ -1,10 +1,18 @@
-<?xml version="1.0" standalone="yes"?>
-<!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
--->
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>AtmOSphere</title>
+        <item>
+            <title>0.9.3</title>
+            <pubDate>Fri, 13 Nov 2026 17:52:53 -0700</pubDate>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description>&lt;h1&gt;atmOSphere 0.9.3&lt;/h1&gt;&lt;p&gt;This update adds more control over how you read your feeds and find conversations.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;You can put the newest posts at the bottom of chronological feeds. Ranked feeds keep their recommendation order.&lt;/li&gt;&lt;li&gt;Following can stay pinned to the newest post, moving there automatically when the feed refreshes. Turn pinning off to return to reading at your own pace. Synced reading positions are paused while pinning is on.&lt;/li&gt;&lt;li&gt;Filter loaded notifications by post text, name, or handle. This also works in the replies, mentions, and quote posts view. Load older notifications to search further back.&lt;/li&gt;&lt;li&gt;Clip to Desk now uses the same quiet color as the other actions until you save the item, when it becomes highlighted. This is consistent across posts, notifications, conversations, and articles.&lt;/li&gt;&lt;li&gt;Your own replies and comments no longer flag saved Desk conversations as having new activity. Replies from other people still do.&lt;/li&gt;&lt;li&gt;Fixed an older synced reading position overriding Following pinning, and corrected the position counter when the newest posts are at the bottom.&lt;/li&gt;&lt;/ul&gt;</description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.3/atmOSphere-update.zip" length="50055788" type="application/octet-stream" sparkle:edSignature="gJk2RGc1lQO2xwve2EiCik4F+9IOwoyVFgMBN9uJuTwUqEdoxIqhaRk4pmnbSHGCwd+UWP+xBXIk3IU4anJEDQ=="></enclosure>
+        </item>
         <item>
             <title>0.9.2</title>
             <pubDate>Thu, 12 Nov 2026 12:33:02 -0700</pubDate>
@@ -12,13 +20,13 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p>This update fixes Blacksky sign-in and displays Bluesky image galleries.</p>
-<ul>
-<li>Blacksky accounts request permissions for Blacksky’s reading service and use that service when loading the account and feeds. The selected service is preserved with the saved session. If a previous sign-in failed, reconnect your account after updating.</li>
-<li>Posts using Bluesky’s gallery format now display their attached images, including galleries inside quoted posts. Existing moderation and image URL checks still apply.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.2/atmOSphere-update.zip" length="50028344" type="application/octet-stream" sparkle:edSignature="GRV6/HMqlASUpxkIwlGONTHLpFbFDMATWtnTE+dXQcV0i00NCgVbNIzX3EDMBaGtiflsjD9kRJjRo+sbWLE2Cg=="/>
+            <description>&lt;p&gt;This update fixes Blacksky sign-in and displays Bluesky image galleries.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blacksky accounts request permissions for Blacksky’s reading service and use that service when loading the account and feeds. The selected service is preserved with the saved session. If a previous sign-in failed, reconnect your account after updating.&lt;/li&gt;
+&lt;li&gt;Posts using Bluesky’s gallery format now display their attached images, including galleries inside quoted posts. Existing moderation and image URL checks still apply.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.2/atmOSphere-update.zip" length="50028344" type="application/octet-stream" sparkle:edSignature="GRV6/HMqlASUpxkIwlGONTHLpFbFDMATWtnTE+dXQcV0i00NCgVbNIzX3EDMBaGtiflsjD9kRJjRo+sbWLE2Cg=="></enclosure>
         </item>
         <item>
             <title>0.9.1</title>
@@ -27,15 +35,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p>This update fixes background refreshing and makes the smooth app icon the default.</p>
-<ul>
-<li>Following can continue catching up after an interrupted refresh, instead of repeatedly starting over. Your current posts and reading position stay in place while it catches up.</li>
-<li>Notifications check for new activity independently of feed refreshing, including when feed auto-refresh is off. An open Notifications view updates in the background too.</li>
-<li>A temporary notification or messaging-service failure keeps the last confirmed unread state and no longer interrupts the other background checks.</li>
-<li>New installations use the smooth icon in Finder and the Dock. Your existing icon choice is preserved, and both styles remain available in Preferences.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.1/atmOSphere-update.zip" length="50027121" type="application/octet-stream" sparkle:edSignature="z+CHigxqqf/66P4bJEJaI5w/jJEv6NFYC8xdodwpAVCPA6hzBCgprcWyq48P4rf3+kJdGQmbpoOiPtYUT4vpBw=="/>
+            <description>&lt;p&gt;This update fixes background refreshing and makes the smooth app icon the default.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Following can continue catching up after an interrupted refresh, instead of repeatedly starting over. Your current posts and reading position stay in place while it catches up.&lt;/li&gt;
+&lt;li&gt;Notifications check for new activity independently of feed refreshing, including when feed auto-refresh is off. An open Notifications view updates in the background too.&lt;/li&gt;
+&lt;li&gt;A temporary notification or messaging-service failure keeps the last confirmed unread state and no longer interrupts the other background checks.&lt;/li&gt;
+&lt;li&gt;New installations use the smooth icon in Finder and the Dock. Your existing icon choice is preserved, and both styles remain available in Preferences.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.1/atmOSphere-update.zip" length="50027121" type="application/octet-stream" sparkle:edSignature="z+CHigxqqf/66P4bJEJaI5w/jJEv6NFYC8xdodwpAVCPA6hzBCgprcWyq48P4rf3+kJdGQmbpoOiPtYUT4vpBw=="></enclosure>
         </item>
         <item>
             <title>0.9.0</title>
@@ -44,29 +52,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p>Okay, this is a big one.</p>
-<p><strong>A Desk of your own</strong></p>
-<p>I started building atmOSphere because I wanted a Mac app that remembered where I’d left off in Bluesky and let me read the blogs I follow. But I also wanted somewhere to keep the conversations I cared about, so I could come back to them without having to find them again in a moving feed.</p>
-<p>This update introduces <strong>Desk</strong>, and organizes atmOSphere around three places: your Desk, your Room, and the World outside your window.</p>
-<p><strong>Desk → Focus</strong></p>
-<p>Your Desk is where you put what you want to give your attention to.</p>
-<p>Save an article from Publications, or save a Bluesky conversation using the little desk icon in its conversation view. You can also save a conversation directly from Notifications. Saving a reply follows that branch of the discussion, so you can keep up with one exchange without following every other reply to the original post.</p>
-<p>For saved articles, Desk looks for related Bluesky discussions and shows them beside the article. It explains why each thread is there: linked by the publisher, linking to the article, or added by you. Where supported, the publication’s own comments appear separately from Bluesky threads.</p>
-<p>If Desk misses a conversation, you can attach it yourself. Open the conversation, choose the attach-to-Desk icon, and type to find the saved item it belongs with.</p>
-<p>When you return, new replies are highlighted. You can jump to the next new reply, respond without leaving the app, and explicitly mark the discussion seen when you’re caught up. Rename saved items to something meaningful to you, give them topics, and filter your Desk by those topics.</p>
-<p>Your Desk is for what matters to you right now. When a conversation has run its course, <strong>Remove from Desk</strong> is right there.</p>
-<p><strong>Room → Chill</strong></p>
-<p>Your Room holds the people, publications, and feeds you choose to follow. This is where you catch up with friends, read articles, and wander through familiar feeds.</p>
-<p>Following still remembers your place. Publications still keeps track of unread articles. The Room home screen brings previews of those sources together, with the full views a click away.</p>
-<p><strong>World → Explore</strong></p>
-<p>World is where you look outward. Search Bluesky for posts and people, and add feeds you want to explore. You can keep those discovery feeds separate from the familiar sources in your Room.</p>
-<p>A short tour introduces the new layout when you first open this update. You can reopen it anytime from Help.</p>
-<p><strong>Other improvements and fixes</strong></p>
-<ul><li>Clearer notification labels and short previews of the posts being replied to.</li><li>Fixed notification conversation links that could return to the feed without opening the discussion.</li><li>More compact, side-by-side layouts for posts with multiple images.</li><li>Fixed images and text overflowing narrow conversation panes.</li><li>Expanded article rendering for pckt and Offprint, plus click-to-load HTML figures in Leaflet articles.</li><li>More consistent sidebar hover feedback and text cursors that match your theme.</li></ul>
-<p>Your saved Desk items, topics, and Desk reading history stay on this Mac for now.</p>
-<p>Thanks for trying atmOSphere and sending feedback. I’m looking forward to seeing what you put on your Desk.</p>
-]]></description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.0/atmOSphere.zip" length="50018578" type="application/octet-stream" sparkle:edSignature="8PDPM0HWjBf4M38h3NHOVPS0pqyQR+F1szepg61s7LSy9IdTX8XV/zAVoAjKtNTtDgCulN3eJYGZSgGbM/xeCQ=="/>
+            <description>&lt;p&gt;Okay, this is a big one.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A Desk of your own&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I started building atmOSphere because I wanted a Mac app that remembered where I’d left off in Bluesky and let me read the blogs I follow. But I also wanted somewhere to keep the conversations I cared about, so I could come back to them without having to find them again in a moving feed.&lt;/p&gt;
+&lt;p&gt;This update introduces &lt;strong&gt;Desk&lt;/strong&gt;, and organizes atmOSphere around three places: your Desk, your Room, and the World outside your window.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Desk → Focus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your Desk is where you put what you want to give your attention to.&lt;/p&gt;
+&lt;p&gt;Save an article from Publications, or save a Bluesky conversation using the little desk icon in its conversation view. You can also save a conversation directly from Notifications. Saving a reply follows that branch of the discussion, so you can keep up with one exchange without following every other reply to the original post.&lt;/p&gt;
+&lt;p&gt;For saved articles, Desk looks for related Bluesky discussions and shows them beside the article. It explains why each thread is there: linked by the publisher, linking to the article, or added by you. Where supported, the publication’s own comments appear separately from Bluesky threads.&lt;/p&gt;
+&lt;p&gt;If Desk misses a conversation, you can attach it yourself. Open the conversation, choose the attach-to-Desk icon, and type to find the saved item it belongs with.&lt;/p&gt;
+&lt;p&gt;When you return, new replies are highlighted. You can jump to the next new reply, respond without leaving the app, and explicitly mark the discussion seen when you’re caught up. Rename saved items to something meaningful to you, give them topics, and filter your Desk by those topics.&lt;/p&gt;
+&lt;p&gt;Your Desk is for what matters to you right now. When a conversation has run its course, &lt;strong&gt;Remove from Desk&lt;/strong&gt; is right there.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Room → Chill&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your Room holds the people, publications, and feeds you choose to follow. This is where you catch up with friends, read articles, and wander through familiar feeds.&lt;/p&gt;
+&lt;p&gt;Following still remembers your place. Publications still keeps track of unread articles. The Room home screen brings previews of those sources together, with the full views a click away.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;World → Explore&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;World is where you look outward. Search Bluesky for posts and people, and add feeds you want to explore. You can keep those discovery feeds separate from the familiar sources in your Room.&lt;/p&gt;
+&lt;p&gt;A short tour introduces the new layout when you first open this update. You can reopen it anytime from Help.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Other improvements and fixes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Clearer notification labels and short previews of the posts being replied to.&lt;/li&gt;&lt;li&gt;Fixed notification conversation links that could return to the feed without opening the discussion.&lt;/li&gt;&lt;li&gt;More compact, side-by-side layouts for posts with multiple images.&lt;/li&gt;&lt;li&gt;Fixed images and text overflowing narrow conversation panes.&lt;/li&gt;&lt;li&gt;Expanded article rendering for pckt and Offprint, plus click-to-load HTML figures in Leaflet articles.&lt;/li&gt;&lt;li&gt;More consistent sidebar hover feedback and text cursors that match your theme.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Your saved Desk items, topics, and Desk reading history stay on this Mac for now.&lt;/p&gt;
+&lt;p&gt;Thanks for trying atmOSphere and sending feedback. I’m looking forward to seeing what you put on your Desk.&lt;/p&gt;
+</description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.0/atmOSphere.zip" length="50018578" type="application/octet-stream" sparkle:edSignature="8PDPM0HWjBf4M38h3NHOVPS0pqyQR+F1szepg61s7LSy9IdTX8XV/zAVoAjKtNTtDgCulN3eJYGZSgGbM/xeCQ=="></enclosure>
         </item>
         <item>
             <title>0.8.35</title>
@@ -76,19 +84,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>0.8.35</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>atmOSphere 0.8.35</h2>
-<ul>
-<li>Leaflet articles now show figures and supported video embeds in their original order.</li>
-<li>Click article images to enlarge them. Image space is reserved while loading to keep the text steady.</li>
-<li>YouTube and Vimeo videos load when clicked. Other embedded content has a link to open it in your browser.</li>
-<li>Previously cached articles refresh automatically to pick up their missing media.</li>
-<li>Includes the recent themed icons, GIF layout, notification, and engagement-control fixes.</li>
-</ul>]]></description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.35/atmOSphere.zip" length="49444645" type="application/octet-stream" sparkle:edSignature="ngudkFTMjrZGCGuI3k46vNzdhFJkPvD/MnOHuy31XdqxIJxpyL8KWCIR6eyO4Z6BL27r0+ggncZ2LTRE2E0NBg=="/>
+            <description>&lt;h2&gt;atmOSphere 0.8.35&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Leaflet articles now show figures and supported video embeds in their original order.&lt;/li&gt;
+&lt;li&gt;Click article images to enlarge them. Image space is reserved while loading to keep the text steady.&lt;/li&gt;
+&lt;li&gt;YouTube and Vimeo videos load when clicked. Other embedded content has a link to open it in your browser.&lt;/li&gt;
+&lt;li&gt;Previously cached articles refresh automatically to pick up their missing media.&lt;/li&gt;
+&lt;li&gt;Includes the recent themed icons, GIF layout, notification, and engagement-control fixes.&lt;/li&gt;
+&lt;/ul&gt;</description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.35/atmOSphere.zip" length="49444645" type="application/octet-stream" sparkle:edSignature="ngudkFTMjrZGCGuI3k46vNzdhFJkPvD/MnOHuy31XdqxIJxpyL8KWCIR6eyO4Z6BL27r0+ggncZ2LTRE2E0NBg=="></enclosure>
         </item>
     </channel>
-</rss>
-<!-- sparkle-signatures:
-edSignature: wPzjGjNEVQOJtlVTKPLc9STv+YX5bi3c/U8pzbMIMSbMebXyMTOVm/eCkH1xCDKs3eN7VUzK32FBflDMVzuVBg==
-length: 8787
+</rss><!-- sparkle-signatures:
+edSignature: dKWHksqDrlAmAPDQ51Di8haAWK6YyVqjCc+HLvztDB1NbVb0u17Rp6Ed5BuosKdDoDJ5HYQIGrbUXzFTdPbLCQ==
+length: 11399
 -->
