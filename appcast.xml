@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>AtmOSphere</title>
+        <item>
+            <title>0.9.4</title>
+            <pubDate>Sun, 15 Nov 2026 07:43:09 -0700</pubDate>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html><body><h1>atmOSphere 0.9.4</h1><p>Thread navigation, message links, Preferences typography, and Intel Mac support.</p><ul><li>Thread progress such as 1/8 appears on ordinary and quoted posts when thread-position information is available. Click it to open the conversation from its beginning; within that thread, the counter is informational.</li><li>Quoted posts have an explicit Open thread action across feeds, notifications, saved conversations, and shared messages. Thread navigation loads beyond the short preview, with a browser continuation for very long threads.</li><li>Direct-message links recover their complete destinations, remain clickable when Bluesky supplies shortened labels, and wrap across lines.</li><li>Preferences uses Quattro throughout its labels, text, buttons, and native controls; the theme preview still shows the selected theme fonts.</li><li>The app now runs on Intel and Apple Silicon Macs with macOS 15 or later. This includes the Intel runtime startup correction verified by the external tester.</li><li>If the account engine stops, its message now includes an exit code or signal to help diagnosis without exposing account information.</li></ul><p>one Intel tester reports an Apple-cannot-verify warning on first launch. The exact signed and notarized download passes Gatekeeper on our Apple Silicon Mac and clean Intel runners; the warning on that Mac remains under investigation.</p></body></html>]]></description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.4/atmOSphere-update.zip" length="96986668" type="application/octet-stream" sparkle:edSignature="YJbU9WGGsO9UUS7shoSps45T/MG49mxzOJShAfPRug/oXSb/ymoWv2wK0VgvaIwhgZGQkTXMWxa2cF0jXUgjAg=="/>
+        </item>
         <item>
             <title>0.9.3</title>
             <pubDate>Fri, 13 Nov 2026 17:52:53 -0700</pubDate>
@@ -11,7 +22,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description>&lt;h1&gt;atmOSphere 0.9.3&lt;/h1&gt;&lt;p&gt;This update adds more control over how you read your feeds and find conversations.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;You can put the newest posts at the bottom of chronological feeds. Ranked feeds keep their recommendation order.&lt;/li&gt;&lt;li&gt;Following can stay pinned to the newest post, moving there automatically when the feed refreshes. Turn pinning off to return to reading at your own pace. Synced reading positions are paused while pinning is on.&lt;/li&gt;&lt;li&gt;Filter loaded notifications by post text, name, or handle. This also works in the replies, mentions, and quote posts view. Load older notifications to search further back.&lt;/li&gt;&lt;li&gt;Clip to Desk now uses the same quiet color as the other actions until you save the item, when it becomes highlighted. This is consistent across posts, notifications, conversations, and articles.&lt;/li&gt;&lt;li&gt;Your own replies and comments no longer flag saved Desk conversations as having new activity. Replies from other people still do.&lt;/li&gt;&lt;li&gt;Fixed an older synced reading position overriding Following pinning, and corrected the position counter when the newest posts are at the bottom.&lt;/li&gt;&lt;/ul&gt;</description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.3/atmOSphere-update.zip" length="50055788" type="application/octet-stream" sparkle:edSignature="gJk2RGc1lQO2xwve2EiCik4F+9IOwoyVFgMBN9uJuTwUqEdoxIqhaRk4pmnbSHGCwd+UWP+xBXIk3IU4anJEDQ=="></enclosure>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.3/atmOSphere-update.zip" length="50055788" type="application/octet-stream" sparkle:edSignature="gJk2RGc1lQO2xwve2EiCik4F+9IOwoyVFgMBN9uJuTwUqEdoxIqhaRk4pmnbSHGCwd+UWP+xBXIk3IU4anJEDQ=="/>
         </item>
         <item>
             <title>0.9.2</title>
@@ -26,7 +37,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;Posts using Bluesky’s gallery format now display their attached images, including galleries inside quoted posts. Existing moderation and image URL checks still apply.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.2/atmOSphere-update.zip" length="50028344" type="application/octet-stream" sparkle:edSignature="GRV6/HMqlASUpxkIwlGONTHLpFbFDMATWtnTE+dXQcV0i00NCgVbNIzX3EDMBaGtiflsjD9kRJjRo+sbWLE2Cg=="></enclosure>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.2/atmOSphere-update.zip" length="50028344" type="application/octet-stream" sparkle:edSignature="GRV6/HMqlASUpxkIwlGONTHLpFbFDMATWtnTE+dXQcV0i00NCgVbNIzX3EDMBaGtiflsjD9kRJjRo+sbWLE2Cg=="/>
         </item>
         <item>
             <title>0.9.1</title>
@@ -43,7 +54,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;New installations use the smooth icon in Finder and the Dock. Your existing icon choice is preserved, and both styles remain available in Preferences.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.1/atmOSphere-update.zip" length="50027121" type="application/octet-stream" sparkle:edSignature="z+CHigxqqf/66P4bJEJaI5w/jJEv6NFYC8xdodwpAVCPA6hzBCgprcWyq48P4rf3+kJdGQmbpoOiPtYUT4vpBw=="></enclosure>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.1/atmOSphere-update.zip" length="50027121" type="application/octet-stream" sparkle:edSignature="z+CHigxqqf/66P4bJEJaI5w/jJEv6NFYC8xdodwpAVCPA6hzBCgprcWyq48P4rf3+kJdGQmbpoOiPtYUT4vpBw=="/>
         </item>
         <item>
             <title>0.9.0</title>
@@ -74,7 +85,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;p&gt;Your saved Desk items, topics, and Desk reading history stay on this Mac for now.&lt;/p&gt;
 &lt;p&gt;Thanks for trying atmOSphere and sending feedback. I’m looking forward to seeing what you put on your Desk.&lt;/p&gt;
 </description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.0/atmOSphere.zip" length="50018578" type="application/octet-stream" sparkle:edSignature="8PDPM0HWjBf4M38h3NHOVPS0pqyQR+F1szepg61s7LSy9IdTX8XV/zAVoAjKtNTtDgCulN3eJYGZSgGbM/xeCQ=="></enclosure>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.0/atmOSphere.zip" length="50018578" type="application/octet-stream" sparkle:edSignature="8PDPM0HWjBf4M38h3NHOVPS0pqyQR+F1szepg61s7LSy9IdTX8XV/zAVoAjKtNTtDgCulN3eJYGZSgGbM/xeCQ=="/>
         </item>
         <item>
             <title>0.8.35</title>
@@ -92,10 +103,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;Previously cached articles refresh automatically to pick up their missing media.&lt;/li&gt;
 &lt;li&gt;Includes the recent themed icons, GIF layout, notification, and engagement-control fixes.&lt;/li&gt;
 &lt;/ul&gt;</description>
-            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.35/atmOSphere.zip" length="49444645" type="application/octet-stream" sparkle:edSignature="ngudkFTMjrZGCGuI3k46vNzdhFJkPvD/MnOHuy31XdqxIJxpyL8KWCIR6eyO4Z6BL27r0+ggncZ2LTRE2E0NBg=="></enclosure>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.8.35/atmOSphere.zip" length="49444645" type="application/octet-stream" sparkle:edSignature="ngudkFTMjrZGCGuI3k46vNzdhFJkPvD/MnOHuy31XdqxIJxpyL8KWCIR6eyO4Z6BL27r0+ggncZ2LTRE2E0NBg=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: dKWHksqDrlAmAPDQ51Di8haAWK6YyVqjCc+HLvztDB1NbVb0u17Rp6Ed5BuosKdDoDJ5HYQIGrbUXzFTdPbLCQ==
-length: 11399
+</rss>
+<!-- sparkle-signatures:
+edSignature: 6KgEiQ0ht0dt/dMObFKwBFOpbb+XTUka23vlqRWsXRvKt254jGqBeU8KENrA9EP56GcsgnSR48K550DhtWWtBw==
+length: 13454
 -->
