@@ -6,6 +6,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>AtmOSphere</title>
         <item>
+            <title>0.9.5</title>
+            <pubDate>Mon, 16 Nov 2026 07:57:18 -0700</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<ul>
+<li>Fixed Following getting stuck on older posts after a long gap. Newer posts now appear while catch-up continues, with your reading position preserved.</li>
+<li>Missing sections of a feed are clearly marked, with a Continue loading button to fill the gap.</li>
+<li>When older posts fail to load, Try again appears in the feed so you can retry without refreshing everything.</li>
+<li>Supported custom feeds now show a compact [Feed Name] Settings link beside the feed label in place of the pinned settings post.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/arossp/atmOSphere-releases/releases/download/v0.9.5/atmOSphere-update.zip" length="97085467" type="application/octet-stream" sparkle:edSignature="+QG1Ek08yk2RXYNQ3270NXgy9PXCqeoCuZUwu73PxUQOMhRKtrFwPss9dfKYmmlRMzVTWeI9SPVdHt3rt1eFCQ=="/>
+        </item>
+        <item>
             <title>0.9.4</title>
             <pubDate>Sun, 15 Nov 2026 07:43:09 -0700</pubDate>
             <sparkle:version>67</sparkle:version>
@@ -108,6 +123,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: qT6Oz8G4kBw0kW5qwopB4b9bUi07SUy0zn0xZuOHzoPuU5d250XIyidDwqrQnGoFaIm6U2v6YgqwDDvmM+sbCQ==
-length: 13214
+edSignature: G8ooZl+M/OZk2Zs8qKFAAW8xbEYv4jQY9EEVzUryRmjPMyC9fyAZGdwVnLtA/lusTnNmCSUA8R+C+deHRpxtAA==
+length: 14410
 -->
